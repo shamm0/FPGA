@@ -1,0 +1,114 @@
+module CLB(sram_bits, a, b, c, d, clock, reset, out);
+
+  input [17:0]sram_bits;
+  input clock, reset;
+  input a,b,c,d;
+  output out;
+  wire [7:0]sram_logic_bits_ti = sram_bits[7:0];
+  wire [7:0]sram_logic_bits_fi = sram_bits[15:8];
+  wire sram_clk_select = sram_bits[16];
+  wire sram_mem_enable = sram_bits[17];
+  wire n1, n2, n3, n4, clock_ff;
+
+  LUT_3 l1(sram_logic_bits_ti, a, b, c, n1);
+  LUT_3 l2(sram_logic_bits_fi, a, b, c, n2);
+  mux_2x1 m1(n1, n2, d, n3);
+  mux_2x1 m2(clock, ~clock, sram_clk_select, clock_mod);
+  D_FF ff1(clock_mod, reset, n3, n4);
+  mux_2x1 m3(n3, n4, sram_mem_enable, out);
+
+endmodule
+
+module D_FF(clk, reset, D, Q);
+
+  input D, clk, reset;
+  output reg Q;
+
+  always@(posedge clk)
+  begin
+    if(reset == 1)
+      Q <= 0;
+    else
+      Q <= D;
+  end
+
+endmodule
+
+module mux_2x1(i0, i1, sel, out_mux);
+
+  input i0, i1, sel;
+  output reg out_mux;
+
+  always@*
+  begin
+    if(sel == 1)
+      out_mux = i1;
+    else
+      out_mux = i0;
+  end
+
+endmodule
+
+module LUT_3(sram_dat, s1, s2, s3, out_lut);
+
+  input [7:0]sram_dat;
+  input s1, s2, s3;
+  output reg out_lut;
+  reg [2:0]p;
+
+  always@*
+  begin
+    p[0] = s1;
+    p[1] = s2;
+    p[2] = s3;
+    case(p)
+
+      3'b000:
+      begin     
+        out_lut = sram_dat[0];
+      end
+
+      3'b001: 
+      begin     
+        out_lut = sram_dat[1];
+      end
+
+      3'b010: 
+      begin     
+        out_lut = sram_dat[2];
+      end
+
+      3'b011: 
+      begin     
+        out_lut = sram_dat[3];
+      end
+
+      3'b100: 
+      begin     
+        out_lut = sram_dat[4];
+      end
+      
+      3'b101: 
+      begin     
+        out_lut = sram_dat[5];
+      end
+
+      3'b110: 
+      begin     
+        out_lut = sram_dat[6];
+      end
+
+      3'b111: 
+      begin     
+        out_lut = sram_dat[7];
+      end
+
+      default:
+      begin
+        out_lut = 1'b0;
+      end
+
+    endcase
+  end
+
+endmodule

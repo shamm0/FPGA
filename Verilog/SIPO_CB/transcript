@@ -1,0 +1,30 @@
+# Compile of SIPO_IOB.v was successful.
+# Compile of SIPO_IOB_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.SIPO_IOB_TB
+# vsim -gui work.SIPO_IOB_TB 
+# Start time: 12:47:12 on Jan 29,2023
+# Loading work.SIPO_IOB_TB
+# Loading work.SIPO_IOB
+# ** Warning: (vsim-3015) [PCDPC] - Port size (112) does not match connection size (8) for port 'DAT_OUT_IOB'. The port definition is at: G:/4.2 Projects/VLSI2/Verilog/SIPO_IOB/SIPO_IOB.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /SIPO_IOB_TB/DUT File: G:/4.2 Projects/VLSI2/Verilog/SIPO_IOB/SIPO_IOB_TB.v Line: 11
+add wave -position insertpoint  \
+sim:/SIPO_IOB_TB/clk \
+sim:/SIPO_IOB_TB/en \
+sim:/SIPO_IOB_TB/res \
+sim:/SIPO_IOB_TB/din \
+sim:/SIPO_IOB_TB/dout \
+sim:/SIPO_IOB_TB/i \
+sim:/SIPO_IOB_TB/a
+run
+# ** Note: $finish    : G:/4.2 Projects/VLSI2/Verilog/SIPO_IOB/SIPO_IOB_TB.v(33)
+#    Time: 69 ns  Iteration: 0  Instance: /SIPO_IOB_TB
+# 1
+# Break in Module SIPO_IOB_TB at G:/4.2 Projects/VLSI2/Verilog/SIPO_IOB/SIPO_IOB_TB.v line 33
+# End time: 12:50:54 on Jan 29,2023, Elapsed time: 0:03:42
+# Errors: 0, Warnings: 7
+# Closing project G:/4.2 Projects/VLSI2/Verilog/SIPO_IOB/SIPO_IOB.mpf
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project FPGA
+# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project SIBO_SB

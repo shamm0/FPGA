@@ -1,0 +1,14 @@
+{G:/4.2 Projects/VLSI2/Verilog/CB/CB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/CB/CB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CB
+-- Compiling module CU
+-- Compiling module CU_BL
+-- Compiling module TG
+
+Top level modules:
+	CB
+
+} {} {}} {G:/4.2 Projects/VLSI2/Verilog/CB/CB_TB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/CB/CB_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

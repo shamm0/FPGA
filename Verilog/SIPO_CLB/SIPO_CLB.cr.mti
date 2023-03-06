@@ -1,0 +1,8 @@
+{G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SIPO_CLB
+
+Top level modules:
+	SIPO_CLB
+
+} {} {}}

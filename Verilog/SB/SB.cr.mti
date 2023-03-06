@@ -1,0 +1,17 @@
+{G:/4.2 Projects/VLSI2/Verilog/SB/SB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/SB/SB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SB
+-- Compiling module SU
+-- Compiling module TG
+
+Top level modules:
+	SB
+
+} {} {}} {G:/4.2 Projects/VLSI2/Verilog/SB/SB_TB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/SB/SB_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SB_TB
+
+Top level modules:
+	SB_TB
+
+} {} {}}

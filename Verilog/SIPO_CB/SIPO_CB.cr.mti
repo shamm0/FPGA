@@ -1,0 +1,15 @@
+{G:/4.2 Projects/VLSI2/Verilog/SIPO_CB/SIPO_CB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/SIPO_CB/SIPO_CB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SIPO_CB
+
+Top level modules:
+	SIPO_CB
+
+} {} {}} {G:/4.2 Projects/VLSI2/Verilog/SIPO_CB/SIPO_CB_TB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/SIPO_CB/SIPO_CB_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module SIPO_CB_TB
+
+Top level modules:
+	SIPO_CB_TB
+
+} {} {}}

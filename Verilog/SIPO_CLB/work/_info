@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/4.2 Projects/VLSI2/Verilog/SIPO_SB
+vSIPO_CLB
+Z0 !s110 1674970072
+!i10b 1
+!s100 mdbgm;:A>BdXfnSQKk2Ca1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1QJKaHDDL7SBiGH2XG`Q41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/4.2 Projects/VLSI2/Verilog/SIPO_CLB
+w1674969424
+Z4 8G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v
+Z5 FG:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v
+!i122 10
+Z6 L0 1 42
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1674970072.000000
+Z9 !s107 G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+n@s@i@p@o_@c@l@b
+vSIPO_CLB_TB
+R0
+!i10b 1
+!s100 dF90ed0OJGQ@0k^4^4<c@2
+R1
+I_WRDP9cz@aiUgmXCNWQKN0
+R2
+R3
+w1674970070
+8G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB_TB.v
+FG:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB_TB.v
+!i122 11
+L0 3 33
+R7
+r1
+!s85 0
+31
+R8
+!s107 G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|G:/4.2 Projects/VLSI2/Verilog/SIPO_CLB/SIPO_CLB_TB.v|
+!i113 1
+R11
+R12
+n@s@i@p@o_@c@l@b_@t@b
+vSIPO_SB
+!s110 1674969391
+!i10b 1
+!s100 ;DKa>FVY7jkl_FU2kG9`@0
+R1
+IE;cR=:e?g1kfj4f91WT9z3
+R2
+R3
+w1674969192
+R4
+R5
+!i122 6
+R6
+R7
+r1
+!s85 0
+31
+!s108 1674969391.000000
+R9
+R10
+!i113 1
+R11
+R12
+n@s@i@p@o_@s@b

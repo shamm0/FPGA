@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/4.2 Projects/VLSI2/Verilog/SB
+vCB
+Z0 !s110 1673941911
+!i10b 1
+!s100 e50]ZHH3ZdPl5L:gXe:280
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT1^GonZozH7W1Mz19z[n41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dG:/4.2 Projects/VLSI2/Verilog/CB
+Z4 w1673941908
+Z5 8G:/4.2 Projects/VLSI2/Verilog/CB/CB.v
+Z6 FG:/4.2 Projects/VLSI2/Verilog/CB/CB.v
+!i122 1
+L0 1 72
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1673941911.000000
+!s107 G:/4.2 Projects/VLSI2/Verilog/CB/CB.v|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|G:/4.2 Projects/VLSI2/Verilog/CB/CB.v|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c@b
+vCU
+R0
+!i10b 1
+!s100 8DoaFh4E_RfFF[aVaSOf22
+R1
+IhEhXjeXbPmYR[;VAE?CeT0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 74 11
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 G:/4.2 Projects/VLSI2/Verilog/CB/CB.v|
+R9
+!i113 1
+R10
+R11
+n@c@u
+vCU_BL
+R0
+!i10b 1
+!s100 _CcfCnEh@Q5LD=T8N:naA2
+R1
+ICE:7@l:h]M;LNZ1>gO3=i0
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 86 10
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@c@u_@b@l
+vTG
+R0
+!i10b 1
+!s100 aIYmYmC?fXcXLgckH`P5;3
+R1
+IAXF@zV1z_DJRH[lJSdOWL2
+R2
+R3
+R4
+R5
+R6
+!i122 1
+L0 97 8
+R7
+r1
+!s85 0
+31
+R8
+R12
+R9
+!i113 1
+R10
+R11
+n@t@g

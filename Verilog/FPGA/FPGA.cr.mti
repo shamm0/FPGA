@@ -1,0 +1,27 @@
+{G:/4.2 Projects/VLSI2/Verilog/FPGA/FPGA.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/FPGA/FPGA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FPGA
+-- Compiling module MEM_CON
+-- Compiling module ADDR_GEN
+-- Compiling module CLB
+-- Compiling module SIPO_CLB
+-- Compiling module SB
+-- Compiling module SIPO_SB
+-- Compiling module CB
+-- Compiling module SIPO_CB
+-- Compiling module IOB
+-- Compiling module SIPO_IOB
+-- Compiling module LUT_3
+-- Compiling module mux_2x1
+-- Compiling module D_FF
+-- Compiling module SU
+-- Compiling module CU
+-- Compiling module CU_BL
+
+Top level modules:
+	FPGA
+
+} {} {}} {G:/4.2 Projects/VLSI2/Verilog/FPGA/FPGA_TB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/FPGA/FPGA_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

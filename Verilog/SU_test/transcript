@@ -1,0 +1,139 @@
+# Compile of SU.v was successful.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.SU_TB
+# vsim -gui work.SU_TB 
+# Start time: 19:51:55 on Jan 16,2023
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'left_port'.
+#    Time: 0 ps  Iteration: 0  Instance: /SU_TB/dut File: G:/4.2 Projects/VLSI2/Verilog/SU_test/SU_TB.v Line: 9
+# Error loading design
+# End time: 19:51:56 on Jan 16,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 6
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.SU_TB
+# vsim -gui work.SU_TB 
+# Start time: 20:11:10 on Jan 16,2023
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+add wave -position insertpoint  \
+sim:/SU_TB/l \
+sim:/SU_TB/la \
+sim:/SU_TB/le \
+sim:/SU_TB/con \
+{sim:/SU_TB/con[5]} \
+{sim:/SU_TB/con[4]} \
+{sim:/SU_TB/con[3]} \
+{sim:/SU_TB/con[2]} \
+{sim:/SU_TB/con[1]} \
+{sim:/SU_TB/con[0]} \
+sim:/SU_TB/r \
+sim:/SU_TB/t \
+sim:/SU_TB/b
+run
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.SU_TB
+# End time: 20:20:46 on Jan 16,2023, Elapsed time: 0:09:36
+# Errors: 0, Warnings: 2
+# vsim -gui work.SU_TB 
+# Start time: 20:20:46 on Jan 16,2023
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+add wave -position insertpoint  \
+sim:/SU_TB/l \
+sim:/SU_TB/la \
+sim:/SU_TB/le \
+sim:/SU_TB/con \
+sim:/SU_TB/r \
+sim:/SU_TB/t \
+sim:/SU_TB/b
+run
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.SU_TB
+# End time: 20:33:28 on Jan 16,2023, Elapsed time: 0:12:42
+# Errors: 0, Warnings: 2
+# vsim -gui work.SU_TB 
+# Start time: 20:33:28 on Jan 16,2023
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+add wave -position insertpoint  \
+sim:/SU_TB/l \
+sim:/SU_TB/la \
+sim:/SU_TB/le \
+sim:/SU_TB/con \
+sim:/SU_TB/r \
+sim:/SU_TB/t \
+sim:/SU_TB/b
+run
+# Compile of SU.v was successful.
+# Compile of SU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SU_TB
+# Loading work.SU
+# Loading work.TG
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 20:36:13 on Jan 16,2023, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 1
+# Closing project G:/4.2 Projects/VLSI2/Verilog/SU_test/SU.mpf

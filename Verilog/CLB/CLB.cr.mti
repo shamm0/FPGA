@@ -1,0 +1,18 @@
+{G:/4.2 Projects/VLSI2/Verilog/CLB/CLB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/CLB/CLB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CLB
+-- Compiling module D_FF
+-- Compiling module mux_2x1
+-- Compiling module LUT_3
+
+Top level modules:
+	CLB
+
+} {} {}} {G:/4.2 Projects/VLSI2/Verilog/CLB/CLB_TB.v} {1 {vlog -work work -stats=none {G:/4.2 Projects/VLSI2/Verilog/CLB/CLB_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CLB_TB
+
+Top level modules:
+	CLB_TB
+
+} {} {}}

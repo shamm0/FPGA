@@ -1,0 +1,34 @@
+`timescale 1ns/1ps
+
+module CLB_TB;
+
+reg [17:0]sram_data;
+reg a, b, res, clk; 
+wire y;
+
+CLB DUT(sram_data, a, b, 1'bx, 1'bx, clk, res, y);
+
+initial
+begin
+  sram_data = 18'h00006;
+  clk = 0;
+  a = 0;
+  b = 0;
+  res = 0;
+end
+
+always
+begin
+  #4 clk = ~clk;
+end
+
+initial
+begin
+  #0 res = 0; a = 0; b = 0;
+  #5 res = 0; a = 0; b = 1;
+  #5 res = 0; a = 1; b = 0;
+  #5 res = 0; a = 1; b = 1;
+  #5 $finish;
+end
+
+endmodule
